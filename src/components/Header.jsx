@@ -1,4 +1,5 @@
 import logo from "../assets/logo.svg"
+import cart from "../assets/cart.svg"
 
 function Header () {
 	return(
@@ -15,7 +16,7 @@ function Header () {
 				</ul>
 			</nav>
 			<div className="cart">
-				<img src="./img/cart.svg" alt="cart" />
+				<img src={cart} alt="cart" />
 			</div>
 		</header>
 
